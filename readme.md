@@ -15,42 +15,40 @@ A mobile application that allows users to take quizzes, track their scores, and 
 - **Kotlin**: For app development.
 - **SQLite**: For storing user data, quiz questions, and scores.
 - **iText**: For generating PDF files.
-- **Android Services**: For background operations like PDF generation.
-
-## Screenshots
-
-Include screenshots of your app here.
+- **Android Services**: This is for background operations like PDF generation.
 
 ## Installation
 
-1. Clone the repository:
-
-```sh
-git clone https://github.com/kushal-ml/QuizApp.git
-
+1. Clone the repository: ```sh git clone https://github.com/kushal-ml/QuizApp.git
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or physical device.
 
 
-##
-Usage
-User Roles
+## Usage
+
+**User Roles**
+
 Signup and Login
-Signup: Users can sign up by providing an email, password, name, and selecting their role (student or teacher).
+Signup: Users can sign up by providing an email, password, and name, and selecting their role (student or teacher).
 Login: Users can log in using their email and password.
-Student Functionalities
+
+**Student Functionalities**
 Take Quiz: Students can select and take quizzes.
 View Results: Students can view their scores and detailed results after completing a quiz. Results are saved in a PDF file.
-Teacher Functionalities
+
+**Teacher Functionalities**
 Create Quiz: Teachers can create new quizzes by providing quiz details and questions.
 Edit Quiz: Teachers can edit existing quizzes.
 Update Quiz: Teachers can update quiz information and questions.
 Delete Quiz: Teachers can delete quizzes.
 View All Results: Teachers can view the results of all quizzes.
-Code Structure
-Activities
-MainActivity: Entry point of the app.
-LoginActivity: Handles user login.
+
+
+## Code Structure
+
+**Activities**
+
+LoginActivity: Handles user login. (Entry point of the app)
 SignupActivity: Handles user signup.
 StudentHomeActivity: Home screen for students.
 TeacherHomeActivity: Home screen for teachers.
@@ -62,16 +60,25 @@ CreateQuizActivity: Allows teachers to create new quizzes.
 UpdateQuizActivity: Allows teachers to update quizzes.
 DeleteQuizActivity: Allows teachers to delete quizzes.
 ShowResultsActivity: Displays results of all quizzes (for teachers).
-Services
-PDFGenerationService: Service that generates a PDF file when a quiz is finished and the score is saved.
-Database
+
+ 
+**Services**
+PDFGenerationService: A service that generates a PDF file when a quiz is finished and the score is saved.
+
+**Database**
 QuizDatabaseHelper: Helper class for SQLite database operations.
-Adapters
+
+**Adapters**
 ResultsAdapter: Adapter for displaying quiz results in a RecyclerView.
-Permissions
+
+**Permissions**
 The app requires the following permissions:
 
 android.permission.WRITE_EXTERNAL_STORAGE
 android.permission.READ_EXTERNAL_STORAGE
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+**Contact**
+Kushal - honeymaheykushal99@gmail.com
+
+## Project Link: https://github.com/kushal-ml/QuizApp
+## Project Implementation Video: https://youtu.be/TYj0B4uyID4
