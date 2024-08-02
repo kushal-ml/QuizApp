@@ -49,6 +49,7 @@ View All Results: Teachers can view the results of all quizzes.
 **Activities**
 
 LoginActivity: Handles user login. (Entry point of the app)
+
 SignupActivity: Handles user signup.
 StudentHomeActivity: Home screen for students.
 TeacherHomeActivity: Home screen for teachers.
