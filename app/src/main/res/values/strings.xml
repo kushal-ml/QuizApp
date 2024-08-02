@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="score">Score: %1$d</string>
+    <string name="quiz_service_channel_name">Quiz Service Channel</string>
+    <string name="quiz_ongoing_title">Quiz Ongoing</string>
+    <string name="quiz_ongoing_text">You have an ongoing quiz.</string>
+</resources>

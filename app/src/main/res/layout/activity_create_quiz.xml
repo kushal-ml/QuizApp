@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/etQuizTitle"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:hint="Quiz Title" />
+
+            <EditText
+                android:id="@+id/etQuestionText"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:hint="Question" />
+
+            <EditText
+                android:id="@+id/etOption1"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:hint="Option 1" />
+
+            <EditText
+                android:id="@+id/etOption2"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:hint="Option 2" />
+
+            <EditText
+                android:id="@+id/etOption3"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:hint="Option 3" />
+
+            <EditText
+                android:id="@+id/etOption4"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:hint="Option 4" />
+
+            <EditText
+                android:id="@+id/etAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:hint="Answer" />
+
+            <EditText
+                android:id="@+id/etQuizTimer"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:hint="Quiz Timer (seconds)" />
+
+            <Button
+                android:id="@+id/btnAddQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Question" />
+
+            <Button
+                android:id="@+id/btnSaveQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Quiz" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutDescription="@xml/result_item_scene">
+
+
+
+    <TextView
+        android:id="@+id/EmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL " />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="student1@gmail.com " />
+
+    <TextView
+        android:id="@+id/QuizId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz ID " />
+
+    <TextView
+        android:id="@+id/textViewQuizId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz ID" />
+
+    <TextView
+        android:id="@+id/ScoreId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score :  " />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Score" />
+</LinearLayout>
