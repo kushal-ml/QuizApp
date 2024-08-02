@@ -29,18 +29,26 @@ A mobile application that allows users to take quizzes, track their scores, and 
 **User Roles**
 
 Signup and Login
+
 Signup: Users can sign up by providing an email, password, and name, and selecting their role (student or teacher).
+
 Login: Users can log in using their email and password.
 
 **Student Functionalities**
 Take Quiz: Students can select and take quizzes.
+
 View Results: Students can view their scores and detailed results after completing a quiz. Results are saved in a PDF file.
 
 **Teacher Functionalities**
+
 Create Quiz: Teachers can create new quizzes by providing quiz details and questions.
+
 Edit Quiz: Teachers can edit existing quizzes.
+
 Update Quiz: Teachers can update quiz information and questions.
+
 Delete Quiz: Teachers can delete quizzes.
+
 View All Results: Teachers can view the results of all quizzes.
 
 
@@ -51,16 +59,27 @@ View All Results: Teachers can view the results of all quizzes.
 LoginActivity: Handles user login. (Entry point of the app)
 
 SignupActivity: Handles user signup.
+
 StudentHomeActivity: Home screen for students.
+
 TeacherHomeActivity: Home screen for teachers.
+
 TakeQuizActivity: Handles quiz taking for students.
+
 ResultActivity: Displays quiz results and saves them in a PDF file.
+
 StudentResultsActivity: Displays all results for the logged-in student.
+
 EditQuizActivity: Allows teachers to edit quizzes.
+
 CreateQuizActivity: Allows teachers to create new quizzes.
+
 UpdateQuizActivity: Allows teachers to update quizzes.
+
 DeleteQuizActivity: Allows teachers to delete quizzes.
+
 ShowResultsActivity: Displays results of all quizzes (for teachers).
+
 
  
 **Services**
@@ -76,6 +95,7 @@ ResultsAdapter: Adapter for displaying quiz results in a RecyclerView.
 The app requires the following permissions:
 
 android.permission.WRITE_EXTERNAL_STORAGE
+
 android.permission.READ_EXTERNAL_STORAGE
 
 **Contact**
